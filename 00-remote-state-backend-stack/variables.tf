@@ -28,7 +28,7 @@ variable "remote_backend" {
   })
 
   default = {
-    bucket_name                = "workshop-remote-backend-bucket-654654554686"
+    bucket_name                = "workshop-remote-backend-bucket-<YOUR_ACCOUNT>"
     dynamo_table_name          = "workshop-state-locking-table"
     dynamo_table_hash_key      = "LockID"
     dynamo_table_billing_mode  = "PAY_PER_REQUEST"
